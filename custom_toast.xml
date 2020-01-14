@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/custom_lay">
+
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_30"
+        android:background="@drawable/rect_with_orange_bg"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/dp_15"
+        android:layout_marginTop="@dimen/dp_15">
+
+    <com.logimetrix.ppmms.utills.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Sterlite"
+        android:id="@+id/toast_text"
+        android:textColor="@color/logo_blue"
+        android:textSize="@dimen/sp_9"
+        android:paddingBottom="@dimen/dp_3"
+        android:paddingTop="@dimen/dp_3"
+        android:paddingLeft="@dimen/dp_10"
+        android:paddingRight="@dimen/dp_10"/>
+
+        </LinearLayout>
+
+</LinearLayout>
